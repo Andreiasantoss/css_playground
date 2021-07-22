@@ -1,10 +1,4 @@
-h1{
-    color:rgb(255, 0, 242);
-    font-siza: 3rem;
-    background-color: aquamarine;
-    border: 9px dotted gray;
-    windth: 50%
-} 
+
 
 h2{
     font-family: 'Lucida Sans';
@@ -48,4 +42,17 @@ ol{
     margin-left: 5rem;
 
 }
+
+/* Explicando cascade e especificidade */
+
+.titulo-pagina { 
+    font-size: 5rem;
+    border: 5px solid red;
+    color: red;
+
+}
+
+.titulo {
+    border-style: dashed;
+    color: greenyellow;
 }
