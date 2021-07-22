@@ -1,18 +1,40 @@
-html{ 
-    font-size: 5x;
-}
-
-div{
-    font-size:1em;
-}
-
-
-h1 {
-    color: rgb(51, 255, 0);
-}
 h1{
     color:rgb(255, 0, 242);
-    font-siza: 1rem;
+    font-siza: 3rem;
     background-color: aquamarine;
-    width: 40%
+    border: 9px dotted gray;
+    windth: 50%
+} 
+
+h2{
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: green;
+    text-align: center;
+    border: solid blue;
+    width: 50%;
+}
+
+p{
+    background-color: black;
+    color: #ffffff;
+}
+
+span{
+    font-size: 40px;
+    font-family: 'comic sans ms';
+    color: yellow;
+    text-decoration: underline;   
+    text-transform: uppercase;
+}
+
+ul{
+    font-size: 50px;
+    list-style: square;
+}
+
+ol{
+    font-size: 50px;
+    list-style: upper-latin;
+    margin-left: 40px;
 }
